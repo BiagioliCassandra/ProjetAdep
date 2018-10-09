@@ -17,7 +17,11 @@
 </head>
 
 <body>
-  
+  <header>
+    <img src="https://www.adep-roubaix.fr/img/adep-logo-cut.png" alt="Le logo de l'ADEP" width="200">
+    <p>ADEP</p>
+    <h1>Application émargement</h1>
+  </header>
   
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
