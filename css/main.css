@@ -109,6 +109,14 @@ textarea {
 .puce {
     list-style: none;
 }
+
+.colorBlack {
+  color: black;
+}
+
+.textDecoration {
+  text-decoration: none;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -181,6 +189,24 @@ header p {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End teacher rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start admin rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.hyphens {
+  hyphens: auto;
+}
+
+.buttonHover:hover{
+  color: Black;
+  text-decoration: none;
+}
+
+.marginButton {
+  flex-direction: column;
+}
+
+.margeIn {
+  margin: 1em;
+  display: block;
+}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End admin rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
