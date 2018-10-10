@@ -1,21 +1,3 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <!-- FONT -->
-  <link rel="stylesheet" href="font/css/font-awesome.min.css">
-</head>
-
-<body>
- 
 <footer>
   <div class="logo">
     <div>
@@ -59,3 +41,5 @@
     <p><i class="fa fa-copyright" aria-hidden="true"> copyright 2018</i> - <a href="mentions légales">mentions légales</a></p>
   </div>
 </footer>
+</body>
+</html>
