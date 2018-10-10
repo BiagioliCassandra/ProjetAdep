@@ -133,8 +133,20 @@ header p {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .main_homepage {
     width: 80%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.main_homepage p {
+    padding: 2em;
+    border: 1px solid black;
+    background-color: rgb(212, 212, 212);
+}
+
 .input_homepage {
+    
     margin-bottom: 1em;
 }
 @media screen and (min-width: 500px) {
@@ -150,14 +162,15 @@ header p {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start teacher rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .button_teacherpage {
-    color: grey;
+    color: black;
     border: none;
     cursor: pointer;
     font-size: 30px;
+    background-color: rgb(212, 212, 212);
     }
 .dropdown {
     display: inline-block;
-    margin: 1em;
+    margin-top: 3em;
 }
 .dropdown_child {
     display: none;
