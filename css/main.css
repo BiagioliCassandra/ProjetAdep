@@ -115,7 +115,6 @@ textarea {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 header {
-    background-color: aquamarine;
     text-align: center;
     overflow: hidden;
 }
@@ -134,9 +133,6 @@ header p {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .main_homepage {
     width: 80%;
-}
-.form_homepage {
-    background-color: aqua;
 }
 .input_homepage {
     margin-bottom: 1em;
@@ -185,28 +181,35 @@ header p {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End admin rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .logo {
-    background-color: rebeccapurple;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .logo div {
-    background-color: yellow;
     width: 10%;
-    height: 100%;
+    height: 10%;
     margin: 2em;
 }
 
 .logo img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 20%;
 }
 
 footer a {
     color: black;
     text-decoration: none;
+}
+
+.copyright {
+    width: 85%;
+    margin: auto;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* ==========================================================================
