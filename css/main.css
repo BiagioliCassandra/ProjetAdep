@@ -96,7 +96,94 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.flex {
+    display: flex;
+}
+.margin_auto {
+    margin: auto;
+}
+.textalign_center {
+    text-align: center;
+}
+.puce {
+    list-style: none;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header {
+    background-color: aquamarine;
+    text-align: center;
+    overflow: hidden;
+}
+#h1_header {
+    font-size: 1.5em;
+}
+header p {
+    font-size: 0.5em;
+}
+@media screen and (min-width: 500px) {
+    header p {
+        font-size: 1em;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.main_homepage {
+    width: 80%;
+}
+.form_homepage {
+    background-color: aqua;
+}
+.input_homepage {
+    margin-bottom: 1em;
+}
+@media screen and (min-width: 500px) {
+    .main_homepage {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .main_homepage {
+        width: 90%;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start teacher rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button_teacherpage {
+    color: grey;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    }
+.dropdown {
+    display: inline-block;
+    margin: 1em;
+}
+.dropdown_child {
+    display: none;
+}
+.dropdown_child a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 1em;
+}
+.dropdown:hover .dropdown_child {
+    display: block;
+}
+.main_teacherpage {
+    flex-direction: column;
+    align-items: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End teacher rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start admin rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End admin rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .logo {
     background-color: rebeccapurple;
     width: 100%;
@@ -121,13 +208,7 @@ footer a {
     color: black;
     text-decoration: none;
 }
-
-
-
-
-
-
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
