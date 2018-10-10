@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Accueil, ADEP émargement</title>
-  <meta name="description" content="La page d'accueil de l'application émargement de l'ADEP">
+  <title>Page Enseignant, ADEP émargement</title>
+  <meta name="description" content="La page des enseignants de l'application émargement de l'ADEP">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
@@ -18,10 +18,38 @@
 
 <body>
   <header>
-    <img id="logo_header" src="https://www.adep-roubaix.fr/img/adep-logo.png" alt="Le logo de l'ADEP" width="150">
-    <h1 id="h1_header">Application d'émargement</h1>
+  <?php 
+    require "header.php"; 
+  ?>
   </header>
-  
+  <main class="flex main_teacherpage">
+    <p>Bienvenue Teacher, liste d'émargement du mercredi 10 octobre 2018</p>
+    <div class="dropdown">
+      <button class="button_teacherpage">Cours 1</button>
+      <ul class="puce dropdown_child">
+        <li><a href="#">Elève 1</a></li>
+        <li><a href="#">Elève 2</a></li>
+        <li><a href="#">Elève 3</a></li>
+        <li><a href="#">Elève 4</a></li>
+        <li><a href="#">Elève 5</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="button_teacherpage">Cours 2</button>
+      <ul class="puce dropdown_child">
+        <li><a href="#">Elève 1</a></li>
+        <li><a href="#">Elève 2</a></li>
+        <li><a href="#">Elève 3</a></li>
+        <li><a href="#">Elève 4</a></li>
+        <li><a href="#">Elève 5</a></li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+  <?php 
+    require "footer.php"; 
+  ?>  
+  </footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
